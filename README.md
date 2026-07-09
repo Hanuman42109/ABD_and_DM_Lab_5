@@ -54,7 +54,7 @@ labels).
   DBSCAN didn't separate the cultivars quite as cleanly as Hierarchical Clustering did.
 - **DBSCAN's noise-detection is a double-edged sword for this dataset.** Since the Wine dataset's classes are
   fairly compact and don't contain many true outliers, DBSCAN's ability to flag noise points wasn't a big
-  advantage here — it mostly just made the algorithm harder to tune. DBSCAN would likely shine more on
+  advantage here - it mostly just made the algorithm harder to tune. DBSCAN would likely shine more on
   datasets with irregularly shaped clusters or genuine outliers.
 - **Overall**, for this particular dataset, Hierarchical Clustering was the more reliable of the two methods,
   while DBSCAN required more careful parameter search and produced less consistent alignment with the known
