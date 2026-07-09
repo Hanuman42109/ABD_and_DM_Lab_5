@@ -1,0 +1,5 @@
+Metric,Hierarchical (k=3),"DBSCAN (eps=2.0, min_samples=5)"
+Silhouette Score,0.2774439826952265,0.24046128028458877
+Homogeneity Score,0.790429271831654,0.36235372701413915
+Completeness Score,0.7825408201875712,0.32473396566508933
+Noise Points,0.0,85.0
